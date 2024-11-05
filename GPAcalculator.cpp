@@ -18,7 +18,7 @@ struct StudentRecord
 };
 
 void getStudentInfo(StudentRecord[]);
-void calcuateGPA(StudentRecord[]);
+void calculateGPA(StudentRecord[]);
 void displayStudentInfo(StudentRecord student[]);
 
 
@@ -27,7 +27,7 @@ int main()
 	StudentRecord student[STUDENTS];
 
 	getStudentInfo(student);
-	calcuateGPA(student);
+	calculateGPA(student);
 	displayStudentInfo(student);
 
 	cout << endl << endl;
@@ -48,7 +48,7 @@ void getStudentInfo(StudentRecord student[])
 	}
 }
 
-void calcuateGPA(StudentRecord student[])
+void calculateGPA(StudentRecord student[])
 {
 	char letterGrade = 0;
 	double totalPts = 0;
